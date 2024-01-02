@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Charts</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<center>
+<body>
+    <header>
+        <h1> Welcome to Interactive Info's</h1>
+    </header>
+  <main>
+    <section class="input-section">
+        <form id="dataForm">
+        <label for="dataInput"><b>Data (comma-separated numbers):</b> </label><br><br>
+        <input type="text" id="dataInput" name="dataInput"><br><br>
+        <button type="submit" class="button">Generate Chart</button>
+        </form>
+    </section> 
+    <section class="chart-section">
+        <canvas id="myChart" width="400" height="200"></canvas>
+    </section>     
+  </main>
+  <script src="scrips.js"></script>
+</body>
+</center>
+</html>
